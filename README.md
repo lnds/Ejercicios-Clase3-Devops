@@ -1,29 +1,39 @@
 #Ejercicio 1
 
-Crear repo local
+Crear repo local:
 
-En shell ejecutar:
+En Shell ejecutar:
 
-$git init
+$ git init .
 
-Ejecutar status:
+Ejecutar git status:
 
-$git status
+$ git status
 
-Agregar archivo a git
+Agregar archivo a git:
 
 $ git add README.md
 
-Configurar identificacion del desarrollador
+Configurar identificacion del desarrollador:
 
-git config --global user.email "you@example.com"
 
-git config --global user.name "Your Name"
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
 
 Hacer el primer commit
 
-git commit -m "feaet: agrega archivo README"
+git commit -m "feat: agrega archivo README"
 
-Despues ejecutar git status
+Después ejecutar git status
 
-$git status
+$ git status
+
+Agregar archivo .gitignore con este contenido:
+
+venv
+
+O cualquier otra cosa que quieran ignorar
+
+git commit -a -m "actualizar repo con .gitignore y README"
+
+Nota: git commit -a es como hacer un add y un commit al mismo tiempo
