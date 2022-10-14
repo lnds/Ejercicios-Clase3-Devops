@@ -79,7 +79,7 @@ Pero GitHub ha deshabilitado el push usando https.
 Así que usen la interfaz de git de Replit presinando el boton `Commit All & Push ->`
 
 
-# Nueva modificación ccontardos 
+# Nueva modificación - desde github - ccontardos  
 esta es mi modificación 
 
 
