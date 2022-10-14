@@ -33,6 +33,8 @@ Hacer el primer commit
 
 ```
 git commit -m "feat: agrega archivo README"
+
+.
 ```
 
 Después ejecutar git status
